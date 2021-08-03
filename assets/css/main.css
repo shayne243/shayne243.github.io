@@ -336,6 +336,30 @@ pre code {
   overflow-x: auto;
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-container > * {
+  margin-right: 6vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .skills-container {
+    display: grid;
+    row-gap: 10vh;
+    grid-template-areas:
+      "auto auto"
+      "auto auto";
+  }
+  .skills-container > * {
+    margin-right: 6vw;
+    text-align: left;
+  }
+}
+
 .align-left {
   text-align: left;
 }
@@ -2271,7 +2295,9 @@ ul.alt {
 
 ul.alt li {
   border-top: solid 2px #efefef;
-  padding: 0.5em 0;
+  padding: 1em 2em;
+  font-weight: 600;
+  color: #1f1815;
 }
 
 ul.alt li:first-child {
@@ -2673,6 +2699,16 @@ input[type="button"]:disabled,
 
 /* Header */
 
+.skills-header {
+  background-image: url("images/overlay.png"), url("../../images/skills.jpg") !important;
+}
+
+@media screen and (max-width: 480px) {
+  .skills-footer {
+    background-image: url("images/overlay.png"), url("../../images/skills.jpg") !important;
+  }
+}
+
 #header {
   display: -moz-flex;
   display: -webkit-flex;
@@ -2703,7 +2739,7 @@ input[type="button"]:disabled,
   position: fixed;
   text-align: right;
   top: 0;
-  width: 35%;
+  width: 35vw;
 }
 
 #header > * {
