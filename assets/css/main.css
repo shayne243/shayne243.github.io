@@ -2702,10 +2702,20 @@ input[type="button"]:disabled,
 .skills-header {
   background-image: url("images/overlay.png"), url("../../images/skills.jpg") !important;
 }
+.coursework-header {
+  background-image: url("images/overlay.png"),
+    url("../../images/coursework.jpg") !important;
+}
 
 @media screen and (max-width: 480px) {
   .skills-footer {
     background-image: url("images/overlay.png"), url("../../images/skills.jpg") !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .coursework-footer {
+    background-image: url("images/overlay.png"),
+      url("../../images/coursework.jpg") !important;
   }
 }
 
