@@ -1918,6 +1918,10 @@ form {
   margin: 0 0 2em 0;
 }
 
+.custom-icon {
+  margin-right: 1.5vw;
+}
+
 label {
   color: #787878;
   display: block;
