@@ -1920,6 +1920,11 @@ form {
 
 .custom-icon {
   margin-right: 1.5vw;
+  padding: 10px;
+}
+
+.view-button {
+  margin-left: 2vw;
 }
 
 label {
