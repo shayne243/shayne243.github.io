@@ -420,12 +420,11 @@ pre code {
 /* Row */
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-areas: "auto auto";
   box-sizing: border-box;
-  align-items: stretch;
+  align-items: center;
 }
-
 .row > * {
   box-sizing: border-box;
 }
@@ -2706,6 +2705,10 @@ input[type="button"]:disabled,
   margin: 0;
 }
 
+.nest-list {
+  font-weight: normal !important;
+}
+
 /* Header */
 
 .resume_container {
@@ -2726,6 +2729,9 @@ input[type="button"]:disabled,
 .projects-header {
   background-image: url("images/overlay.png"), url("../../images/projects.jpg") !important;
 }
+.work-header {
+  background-image: url("images/overlay.png"), url("../../images/work.jpg") !important;
+}
 
 @media screen and (max-width: 480px) {
   .resume_container {
@@ -2743,6 +2749,9 @@ input[type="button"]:disabled,
   .projects-footer {
     background-image: url("images/overlay.png"),
       url("../../images/projects.jpg") !important;
+  }
+  .work-footer {
+    background-image: url("images/overlay.png"), url("../../images/work.jpg") !important;
   }
   .resume-footer {
     background: transparent !important;
