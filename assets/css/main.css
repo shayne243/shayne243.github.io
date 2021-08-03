@@ -2723,6 +2723,9 @@ input[type="button"]:disabled,
 .resume-header {
   background-image: url("images/overlay.png"), url("../../images/resume.jpg") !important;
 }
+.projects-header {
+  background-image: url("images/overlay.png"), url("../../images/projects.jpg") !important;
+}
 
 @media screen and (max-width: 480px) {
   .resume_container {
@@ -2736,6 +2739,10 @@ input[type="button"]:disabled,
   .coursework-footer {
     background-image: url("images/overlay.png"),
       url("../../images/coursework.jpg") !important;
+  }
+  .projects-footer {
+    background-image: url("images/overlay.png"),
+      url("../../images/projects.jpg") !important;
   }
   .resume-footer {
     background: transparent !important;
