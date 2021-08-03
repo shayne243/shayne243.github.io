@@ -2699,6 +2699,11 @@ input[type="button"]:disabled,
 
 /* Header */
 
+.resume_container {
+  width: 120%;
+  height: 1100px;
+}
+
 .skills-header {
   background-image: url("images/overlay.png"), url("../../images/skills.jpg") !important;
 }
@@ -2706,16 +2711,25 @@ input[type="button"]:disabled,
   background-image: url("images/overlay.png"),
     url("../../images/coursework.jpg") !important;
 }
+.resume-header {
+  background-image: url("images/overlay.png"), url("../../images/resume.jpg") !important;
+}
 
 @media screen and (max-width: 480px) {
+  .resume_container {
+    height: 350px;
+    width: 100%;
+  }
   .skills-footer {
     background-image: url("images/overlay.png"), url("../../images/skills.jpg") !important;
   }
-}
-@media screen and (max-width: 480px) {
+
   .coursework-footer {
     background-image: url("images/overlay.png"),
       url("../../images/coursework.jpg") !important;
+  }
+  .resume-footer {
+    background: transparent !important;
   }
 }
 
