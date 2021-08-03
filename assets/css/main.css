@@ -2732,6 +2732,10 @@ input[type="button"]:disabled,
 .work-header {
   background-image: url("images/overlay.png"), url("../../images/work.jpg") !important;
 }
+.activities-header {
+  background-image: url("images/overlay.png"),
+    url("../../images/activities.jpg") !important;
+}
 
 @media screen and (max-width: 480px) {
   .resume_container {
@@ -2752,6 +2756,10 @@ input[type="button"]:disabled,
   }
   .work-footer {
     background-image: url("images/overlay.png"), url("../../images/work.jpg") !important;
+  }
+  .activities-footer {
+    background-image: url("images/overlay.png"),
+      url("../../images/activities.jpg") !important;
   }
   .resume-footer {
     background: transparent !important;
