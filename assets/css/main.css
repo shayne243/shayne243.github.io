@@ -2191,6 +2191,15 @@ input[type="radio"] + label:before {
   text-align: center;
 }
 
+.new-image:before {
+  opacity: 0.5 !important;
+}
+
+.new-image:after {
+  content: none !important;
+  opacity: 0 !important;
+  display: none !important;
+}
 .image.thumb:after {
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
